@@ -85,11 +85,15 @@ header {
     width: 50%;
 }
 
+#logo h2 {
+    color: #EF233C;
+}
+
 #logo span {
     font-size: 1.5rem;
     display: block;
     text-align: center;
-    color: #D90429;
+    color: #EF233C;
 }
 
 .menu {
