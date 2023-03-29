@@ -9,7 +9,7 @@ body {
     padding: 0px;
     font-size: 16px;
     background-color: #8D99AE;
-    
+    font-family: 'Source Code Pro', monospace;
   }
 
   .container {
@@ -19,7 +19,7 @@ body {
                        "head left right" 
                        "head left right";
     grid-template-rows: 1fr 1fr 1fr;
-    grid-template-columns: 1fr 3fr 3fr; 
+    grid-template-columns: 1fr 4fr 4fr; 
     width: 100vw;
     height: 100vh;
   }
@@ -34,17 +34,34 @@ body {
                         "menu"
                         "socials";
     grid-template-rows: 1fr 1fr 1fr;
-
+    justify-items: center;
   }
 
   #logo {
     grid-area: logo;
+    width: 100%;
+  }
+
+  #logo img {
+    margin: 0.5rem 23%;
+  }
+
+  #logo h2 {
+    font-size: 2rem;
+    margin: 0 20%;
+  }
+
+  #logo span {
+    font-size: 1.5rem;
+    margin: 0 11%;
   }
 
   .menu {
     grid-area: menu;
+    align-self: center
   }
 
   .socials {
     grid-area: socials;
+    align-self: center
   }
