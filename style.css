@@ -221,3 +221,27 @@ main {
 #bigPic {
     width: 70%;
 }
+
+/* Right Project Styles */
+#projectRight p, #projectRight li {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #D90429;
+    margin: 0;
+}
+
+article {
+    max-height: 90vh;
+}
+
+#placeholder {
+    display: none;
+}
+
+#project1 {
+    display: none;
+}
