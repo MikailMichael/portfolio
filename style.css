@@ -154,6 +154,10 @@ main {
     align-items: center;
 }
 
+#projects {
+    grid-template-columns: 1fr 3fr;
+}
+
 /* Left Section Styles */
 .left {
     grid-area: left;
