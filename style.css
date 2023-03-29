@@ -187,3 +187,7 @@ main {
 .right h2 {
     margin: 1rem;
 }
+
+#bigPic {
+    width: 70%;
+}
