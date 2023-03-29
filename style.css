@@ -204,7 +204,7 @@ main {
 
 .right {
     grid-area: right;
-    margin: 3rem;
+    margin: 1rem 3rem;
 }
 
 .right img {
@@ -238,6 +238,10 @@ article {
     max-height: 90vh;
 }
 
+#projectRight img {
+    width: 80%;
+}
+
 #placeholder {
     display: none;
 }
@@ -249,3 +253,8 @@ article {
 #project2 {
     display: none;
 }
+
+#project3 {
+    display: none;
+}
+
